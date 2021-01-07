@@ -1,0 +1,40 @@
+
+.media:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.post-username{
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.post-username:hover {
+  text-decoration: underline;
+}
+.post-section {
+  border-bottom: 1px solid #eee;
+}
+.comments-section {
+  padding: 20px 0;
+}
+.comments-section .media:hover{
+  cursor: default;
+}
+.media {
+  margin: 10px 0;
+}
+.search-textinput input{
+  margin: 10px 0;
+}
+.user-details .row:hover{
+  background: #eee;
+}
+.comment-name{
+  font-weight: bold;
+}
+.user-details {
+  margin-top: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+}
